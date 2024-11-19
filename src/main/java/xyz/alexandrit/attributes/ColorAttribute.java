@@ -1,7 +1,7 @@
-package attributes;
+package xyz.alexandrit.attributes;
 
 public class ColorAttribute extends AbstractAttribute<String> {
-    protected ColorAttribute(String value) {
+    public ColorAttribute(String value) {
         super(value);
     }
 

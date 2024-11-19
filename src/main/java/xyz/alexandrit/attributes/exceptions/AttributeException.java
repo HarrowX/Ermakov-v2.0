@@ -1,4 +1,4 @@
-package attributes.exceptions;
+package xyz.alexandrit.attributes.exceptions;
 
 public class AttributeException extends RuntimeException{
     public AttributeException() {

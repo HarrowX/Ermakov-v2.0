@@ -1,6 +1,6 @@
-package attributes;
+package xyz.alexandrit.attributes;
 
-class TimeAttribute extends AbstractAttribute<Integer> {
+public class TimeAttribute extends AbstractAttribute<Integer> {
     static {
         SECONDS_IN_DAY = 60 * 60 * 24;
         SECONDS_IN_HOUR = 60 * 60;
@@ -52,6 +52,6 @@ class TimeAttribute extends AbstractAttribute<Integer> {
 
     @Override
     public String toString() {
-        return STR."\{name()} is \{hours()}:\{String.format("%02d",minutes())}:\{String.format("%02d",seconds())}";
+        return STR."\{name()}: \{hours()}:\{String.format("%02d",minutes())}:\{String.format("%02d",seconds())}";
     }
 }

@@ -1,7 +1,8 @@
-package attributes;
+package xyz.alexsandrit.attributes;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
+import xyz.alexandrit.attributes.ColorAttribute;
 
 class ColorAttributeTest {
     @Test
